@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"  android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/main"
+        android:background="@null"
+        ></ImageView>
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/Etid"
+        android:layout_centerHorizontal="true"
+        android:hint="아이디"
+        android:layout_marginTop="400dp"></EditText>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/Etpw"
+        android:layout_centerHorizontal="true"
+        android:hint="비밀번호"
+        android:layout_below="@+id/Etid"></EditText>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:text="로그인"
+        android:id="@+id/Btlogin"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/Etpw"
+        android:layout_alignLeft="@+id/Etpw"
+        ></Button>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:text="회원가입"
+        android:id="@+id/Btsign"
+        android:textAllCaps="false"
+        android:layout_alignTop="@+id/Btlogin"
+        android:layout_alignRight="@+id/Etpw"></Button>
+
+
+</RelativeLayout>

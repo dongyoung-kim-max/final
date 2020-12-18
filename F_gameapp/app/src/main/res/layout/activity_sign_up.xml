@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:background="#ffffff">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/Etsignid"
+        android:layout_centerHorizontal="true"
+        android:hint="아이디"
+        android:layout_marginTop="200dp"></EditText>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/Etsignpw"
+        android:layout_centerHorizontal="true"
+        android:hint="비밀번호"
+        android:layout_below="@+id/Etsignid"></EditText>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:text="가입"
+        android:id="@+id/Btsignin"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@+id/Etsignpw"
+        android:layout_alignLeft="@+id/Etsignpw"
+        ></Button>
+
+
+
+
+</RelativeLayout>

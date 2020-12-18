@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "946904689230",
+    "firebase_url": "https://mgame-bcf1e.firebaseio.com",
+    "project_id": "mgame-bcf1e",
+    "storage_bucket": "mgame-bcf1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946904689230:android:9ab3aabc56909f48caf11f",
+        "android_client_info": {
+          "package_name": "com.example.f_gameapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946904689230-cptsgjlvfhjh50bjbje8244rn2o1gann.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.f_gameapp",
+            "certificate_hash": "7ee6ca2ab6d1e05b2f48d372a8ae5ce831efefdf"
+          }
+        },
+        {
+          "client_id": "946904689230-263or0e19u60pja2jqrejkbojuqfmlmg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPKrKagIUWCjDUA6k-xuX39Lsn2OgYBUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946904689230-263or0e19u60pja2jqrejkbojuqfmlmg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
